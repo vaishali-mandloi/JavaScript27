@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.form-group label {
+    color: brown;
+}
+
+.form-group button {
+    margin-top: 15px;
+    padding: 9px;
+    border: none;
+    border: 1px solid rgb(88, 67, 67);
+    background-color: rgb(85, 71, 71);
+    color: white;
+    border-radius: 18px;
+}
+
+.form-group button:hover {
+    background-color: rgb(122, 92, 92);
+}
+
+.newAddress input{
+    width: 50%;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid grey;
+    margin-right: 20px;
+}
+
+.newAddress button {
+    background-color: rgb(206, 27, 27);
+    color: white;
+    border: 1px solid red;
+    border-radius: 11px;
+}
+
+
+.newAddress button:hover {
+    background-color: rgb(206, 27, 27);
+}
+
+p {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.submitErr {
+    color: red;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.displayData {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 0px;
+    display: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Game</title>
+</head>
+<body>
+    
+    <div id="simon_pad">
+        <div id="title">
+            <h3>Let's Play Simon</h3>
+        </div>
+        <div>
+            <button class="red" onclick="getMethod('red')"></button>
+            <button class="blue" onclick="getMethod('blue')"></button>
+        </div>
+        <div>
+            <button class="yellow" onclick="getMethod('yellow')"></button>
+            <button class="green" onclick="getMethod('green')"></button>
+        </div>
+    </div>
+
+    <div id="score">
+        
+    </div>
+    
+    
+    <div id="play">
+        <button onclick = "start()" class="startBtn">Play</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

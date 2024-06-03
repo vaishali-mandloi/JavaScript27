@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+  }
+  
+  .content {
+    position: fixed;
+    top: 0;
+    background: rgba(236, 232, 232, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .content h1 {
+    margin: 22px;
+    color: black;
+  }
+  
+  #myBtn {
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #e9a6a6;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
